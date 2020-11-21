@@ -21,7 +21,7 @@ let porcentajeParaFinDeAnio = () => {
 let capitulosDeFriendsParaFinDeAnio = () => {
   let minutosParaFinDeAnio = Number(calcularHoy.diff(hastaFinDeAnio, 'minutes')), // Calculamos los minutos que faltan para fin de año
       minutosPorCapitulo = 22                                                     // Promedio de duración de capítulos
-      capitulosParaFinDeAnio = minutosParaFinDeAnio / minutosPorCapitulo,         // Calculamos cuánto vamos a poder que mirar
+      capitulosParaFinDeAnio = minutosParaFinDeAnio / minutosPorCapitulo,         // Calculamos cuánto vamos a poder mirar
 
       // Seteamos la info imprescindible para el usuario...
       $('#capitulosParaFinDeAnio').text(Math.abs(capitulosParaFinDeAnio.toFixed()))
