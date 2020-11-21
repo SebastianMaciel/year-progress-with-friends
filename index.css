@@ -1,0 +1,9 @@
+/* Sacamos todas las decoraciones para links */
+a:hover {
+  text-decoration: none;
+}
+
+/* Un toque más grande la barra de progreso */
+.progress {
+  height: 6em;
+}
