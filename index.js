@@ -19,6 +19,9 @@ let porcentajeParaFinDeAnio = () => {
 
 // Esto es lo importante, cuánto vamos a tener que ver de Friends para no aburrirnos...
 let capitulosDeFriendsParaFinDeAnio = () => {
+
+  let calcularHoy = moment(moment().format('YYYY-MM-DD'))
+
   let minutosParaFinDeAnio = Number(calcularHoy.diff(hastaFinDeAnio, 'minutes')), // Calculamos los minutos que faltan para fin de año
       minutosPorCapitulo = 22                                                     // Promedio de duración de capítulos
       capitulosParaFinDeAnio = minutosParaFinDeAnio / minutosPorCapitulo,         // Calculamos cuánto vamos a poder mirar
