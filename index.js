@@ -34,10 +34,3 @@ let capitulosDeFriendsParaFinDeAnio = () => {
 porcentajeParaFinDeAnio()
 // Y la más importante realmente
 capitulosDeFriendsParaFinDeAnio()
-
-// Kata
-const str = "The greatest victory is that which requires no battle";
-
-const reverseWords = (str) => str.split(" ").reverse().join(" ")
-
-console.log(reverseWords(str));
