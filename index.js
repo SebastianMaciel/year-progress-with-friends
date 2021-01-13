@@ -1,6 +1,6 @@
 // MomentJS: calculamos el día de hoy y seteamos el día de fin de año
 let calcularHoy = moment(moment().format('YYYY-MM-DD')),
-    hastaFinDeAnio = moment(moment().format('2020-12-31'));
+    hastaFinDeAnio = moment(moment().format('2021-12-31'));
 
 // Con esta función calculamos para el porcentaje de la barra y el texto de adentro
 let porcentajeParaFinDeAnio = () => {
